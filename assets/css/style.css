@@ -32,7 +32,7 @@ html, body {
   }
 
   h1, h2 {
-    font: bold italic 220px georgia, times new roman, serif;
+    font: bold italic 100px georgia, times new roman, serif;
     color: #555;
     letter-spacing: -.09em;
     -webkit-transition-duration: 1s;

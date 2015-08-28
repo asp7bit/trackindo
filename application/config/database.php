@@ -77,10 +77,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'pgsql:host=yourhostname;dbname=yourdb',
-	'username' => 'username',
-	'password' => 'password',
-	'database' => 'database',
+	'hostname' => 'pgsql:host=ec2-54-83-58-191.compute-1.amazonaws.com;dbname=d2dj5vlu8djjh7',
+	'username' => 'tkhrkzgcombkyr',
+	'password' => 'wpINSZTDgeUR8Y4csl5UPv6ztt',
+	'database' => 'd2dj5vlu8djjh7',
 	'dbdriver' => 'pdo',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

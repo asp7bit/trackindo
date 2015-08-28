@@ -11,7 +11,7 @@
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Trackindo</title>
+  <title>Trakindo</title>
   <meta name="description" content="" />
   <meta name="keywords" content="" />
   <meta name="author" content="">
@@ -41,8 +41,10 @@
 
   <div class="row">
     <div class="twelve columns special head">
-      <h1>Trackindo</h1>
-      <h2> <span>Coming Soon <span></span> </span></h2>
+      <h1>Trakindo</h1>
+      <h2> <span>List of outlets <span></span> </span></h2>
+      <div class="paging"><?php echo $pagination; ?></div>
+      <div class="data"><?php echo $table; ?></div>
     </div>
   </div>
 
