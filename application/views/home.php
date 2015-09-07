@@ -39,10 +39,14 @@
 
 <body>
 
+
   <div class="row">
     <div class="twelve columns special head">
       <h1>Trakindo</h1>
+      
       <h2> <span>List of outlets <span></span> </span></h2>
+      <a href="<?php echo base_url() ?>outlet/create">Add Outlet</a>
+      
       <div class="paging"><?php echo $pagination; ?></div>
       <div class="data"><?php echo $table; ?></div>
     </div>

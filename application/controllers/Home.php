@@ -33,10 +33,10 @@ class Home extends CI_Controller {
     // generate table data
     $this->load->library('table');
     $this->table->set_empty("&nbsp;");
-    $this->table->set_heading('No', 'Name', 'Email', 'Address');
+    $this->table->set_heading('No', 'Name', 'Email', 'Address','Action');
     $i = 0 + $offset;
     foreach ($outlets as $outlet){
-      $this->table->add_row(++$i, $outlet->name, $outlet->email, $outlet->address);
+      $this->table->add_row(++$i, $outlet->name, $outlet->email, $outlet->address, anchor('outlet/delete/'.$outlet->id, 'Delete ').anchor('outlet/choose/'.$outlet->id, ' Change'));
     }
     $data['table'] = $this->table->generate();
 

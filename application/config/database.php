@@ -2,7 +2,6 @@
 
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
 /*
 | -------------------------------------------------------------------
 | DATABASE CONNECTIVITY SETTINGS
@@ -74,7 +73,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $active_group = 'default';
 $query_builder = TRUE;
-
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'pgsql:host=ec2-54-83-58-191.compute-1.amazonaws.com;dbname=d2dj5vlu8djjh7',
