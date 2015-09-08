@@ -5,7 +5,7 @@ class Home extends CI_Controller {
 
   public function __construct(){
     parent::__construct();
-    
+
     // load helper
     $this->load->helper('url');
 
@@ -29,6 +29,7 @@ class Home extends CI_Controller {
     $config['uri_segment'] = $uri_segment;
     $this->pagination->initialize($config);
     $data['pagination'] = $this->pagination->create_links();
+    $data['create_outlet'] = site_url('outlet');
 
     // generate table data
     $this->load->library('table');
